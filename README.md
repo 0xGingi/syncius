@@ -36,7 +36,10 @@ The sync server is required for the extension to function. You can find the serv
 **Running with Bun:**
 
 1.  Navigate to the `server/` directory in your terminal.
-2.  Install dependencies (if necessary, though Bun typically handles this on run).
+2.  Install dependencies:
+    ```bash
+      bun install
+    ```
 3.  Run the server:
     ```bash
     bun run index.ts
@@ -51,7 +54,7 @@ The sync server is required for the extension to function. You can find the serv
     ```bash
     docker-compose up --build -d
     ```
-4.  This will also start the server, typically accessible on `http://localhost:7732` (check `docker-compose.yml` for specifics).
+4.  This will also start the server on `http://localhost:7732`
 
 ### 2. Installing the Extension
 
