@@ -2,6 +2,9 @@
 
 Syncius is a Firefox browser extension that provides self-hosted, end-to-end encrypted synchronization for your browser data. Keep your bookmarks, tabs, and other data in sync across devices without relying on third-party cloud services.
 
+![image](https://github.com/user-attachments/assets/eae8c633-9d1d-443e-9a24-390da840a2cf)
+
+
 ## Features
 
 *   **Self-Hosted:** You control your data by running your own sync server.
@@ -10,6 +13,13 @@ Syncius is a Firefox browser extension that provides self-hosted, end-to-end enc
     *   Bookmarks
     *   Tabs
     *   Storage (used internally by the extension)
+
+## TO-DO
+
+* Implement better bookmark merging (currently does not delete bookmarks)
+* Improve UI/UX
+* Get Better Logo
+* Fix bugs I'm sure are there
 
 ## Setup
 
@@ -45,7 +55,7 @@ The sync server is required for the extension to function. You can find the serv
 
 ### 2. Installing the Extension
 
-You can install the Syncius extension in Firefox via the releases page
+You can install the Syncius extension in Firefox via [the releases page](https://github.com/0xGingi/syncius/releases)
 
 
 **Building the extension**:
