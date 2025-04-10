@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "Syncius",
+  "version": "0.5.0",
+  "description": "Self-hosted, end-to-end encrypted sync for Firefox.",
+  "license": "MIT",
+  "permissions": [
+    "storage",
+    "tabs",
+    "bookmarks",
+    "alarms",
+    "unlimitedStorage"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "open_in_tab": true
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "48": "icons/icon48.jpg",
+      "128": "icons/icon128.jpg"
+    }
+  },
+  "icons": {
+    "48": "icons/icon48.jpg",
+    "128": "icons/icon128.jpg"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "admin@0xgingi.com",
+      "strict_min_version": "109.0"
+    }
+  }
+}

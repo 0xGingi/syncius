@@ -1,0 +1,7 @@
+node_modules/
+sync_data.json
+sync_salt.txt
+build.sh
+web-ext-artifacts/
+.amo*
+.web-ext*

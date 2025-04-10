@@ -1,0 +1,11 @@
+services:
+  syncius-server:
+    build: .
+    container_name: syncius-server
+    restart: unless-stopped
+    ports:
+      - "7732:7732"
+    volumes:
+      - type: bind
+        source: ./data
+        target: /app/data
